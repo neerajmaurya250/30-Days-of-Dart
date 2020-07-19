@@ -8,4 +8,8 @@ void main() {
   } catch (e) {
     print(e);
   }
+  // Finally is used to execute something whether try catch works or not
+   finally {
+    print('End of Program');
+  }
 }
