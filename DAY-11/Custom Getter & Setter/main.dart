@@ -12,6 +12,4 @@ class Vehicle {
 void main() {
   Vehicle v1 = new Vehicle();
   print(v1._maxSpeed);
-  v1._maxSpeed = 78;
-  print(v1._maxSpeed);
 }
