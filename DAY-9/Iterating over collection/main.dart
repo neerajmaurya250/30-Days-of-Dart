@@ -10,6 +10,6 @@ void main() {
 
   while (itr.moveNext()) {
     int res = itr.current;
-    print(res * 2);
+    print(res);
   }
 }
